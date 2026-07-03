@@ -1,0 +1,22 @@
+[
+    {
+        "database_size": 10,
+        "euclidean_matching_latency_ms": 0.007563999970443547,
+        "cosine_matching_latency_ms": 0.002151999797206372
+    },
+    {
+        "database_size": 100,
+        "euclidean_matching_latency_ms": 0.02125200000591576,
+        "cosine_matching_latency_ms": 0.0037540000630542636
+    },
+    {
+        "database_size": 1000,
+        "euclidean_matching_latency_ms": 0.8919239998795092,
+        "cosine_matching_latency_ms": 0.13606799999251962
+    },
+    {
+        "database_size": 10000,
+        "euclidean_matching_latency_ms": 10.433119999943301,
+        "cosine_matching_latency_ms": 0.2569859998766333
+    }
+]

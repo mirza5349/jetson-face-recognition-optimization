@@ -1,0 +1,54 @@
+{
+    "0_to_15": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "false_acceptance_rate": 0.0,
+        "false_rejection_rate": 0.0,
+        "true_acceptance_rate": 1.0,
+        "TP": 36,
+        "TN": 36,
+        "FP": 0,
+        "FN": 0
+    },
+    "15_to_30": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0,
+        "false_acceptance_rate": 0.0,
+        "false_rejection_rate": 0.0,
+        "true_acceptance_rate": 1.0,
+        "TP": 12,
+        "TN": 12,
+        "FP": 0,
+        "FN": 0
+    },
+    "30_to_40": {
+        "accuracy": 0.5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "false_acceptance_rate": 0.0,
+        "false_rejection_rate": 1.0,
+        "true_acceptance_rate": 0.0,
+        "TP": 0,
+        "TN": 2,
+        "FP": 0,
+        "FN": 2
+    },
+    "40_to_50": {
+        "accuracy": 0.5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "false_acceptance_rate": 0.0,
+        "false_rejection_rate": 1.0,
+        "true_acceptance_rate": 0.0,
+        "TP": 0,
+        "TN": 12,
+        "FP": 0,
+        "FN": 12
+    }
+}

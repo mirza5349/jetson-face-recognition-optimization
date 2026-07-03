@@ -1,0 +1,31 @@
+# configs/jetson_agx_orin.yaml
+# Hardware configuration for NVIDIA Jetson AGX Orin 64GB
+
+hardware:
+  device_name: "NVIDIA Jetson AGX Orin 64GB"
+  jetpack_version: "6.0 (JetPack 6.0 DP / GA)"
+  cuda_version: "12.2"
+  cudnn_version: "8.9.2"
+  tensorrt_version: "10.0.1"
+  python_version: "3.10.12"
+  pytorch_version: "2.1.0+nv23.11"
+  onnxruntime_version: "1.17.0"
+  power_mode_id: 0 # MAXN Mode (highest power/performance limit)
+  power_mode_name: "MAXN"
+  setup_commands:
+    - "sudo nvpmodel -m 0"
+    - "sudo jetson_clocks"
+
+paths:
+  model_dir: "models"
+  onnx_path: "models/facenet.onnx"
+  tensorrt_path: "models/facenet_fp16.engine"
+  dataset_dir: "data/benchmark_dataset"
+  results_dir: "results"
+
+inference:
+  use_gpu: true
+  precision: "fp16"
+  preallocate_gpu_buffers: true
+  warmup_iterations: 15
+  tegrastats_interval_ms: 100

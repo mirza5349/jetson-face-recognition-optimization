@@ -1,0 +1,12 @@
+{
+    "hardware": "NVIDIA Jetson AGX Orin 64GB",
+    "backends_compared": [
+        "pytorch_fp16",
+        "tensorrt_fp16",
+        "pytorch_fp32",
+        "onnx_cuda"
+    ],
+    "top_performing_backend": "tensorrt_fp16",
+    "optimal_inference_fps": 28.802817237733926,
+    "baseline_fps_avg": 24.17047503635411
+}
