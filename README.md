@@ -1,8 +1,8 @@
 # FaceNet AGX Orin 64GB Optimization & Benchmarking Suite
 
-This repository contains a complete, reproducible, end-to-end benchmarking project designed to compile, run, and compare face recognition pipelines on the **NVIDIA Jetson AGX Orin 64GB Developer Kit**. 
+This repository contains a complete, reproducible, end-to-end benchmarking project designed to compile, run, and compare face recognition pipelines on the NVIDIA Jetson AGX Orin 64GB Developer Kit
 
-The suite compares the **original FaceNet PyTorch pipeline** (Variant 1: Base PyTorch FP32) against three highly optimized, hardware-accelerated variants: **Optimized PyTorch FP16**, **ONNX Runtime (CUDA Execution Provider)**, and a **compiled TensorRT FP16 Engine**.
+The suite compares the original FaceNet PyTorch pipeline (Variant 1: Base PyTorch FP32) against three highly optimized, hardware-accelerated variants: Optimized PyTorch FP16, ONNX Runtime (CUDA Execution Provider), and a compiled TensorRT FP16 Engine.
 
 ---
 
